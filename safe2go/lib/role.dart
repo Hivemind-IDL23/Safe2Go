@@ -19,9 +19,6 @@ class MyScreen extends StatelessWidget {
     Color styleGreen = Color(0xFF159A9C); // Define the color here
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Safe 2 Go'),
-      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
