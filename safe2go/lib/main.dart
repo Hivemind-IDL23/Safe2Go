@@ -34,13 +34,14 @@ class LogoScreen extends StatelessWidget {
             // Username Input
             Container(
               width: 300.0,
+              height: 40.0,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10.0),
                 color: Color(0xFFD9D9D9), // Background color
               ),
               child: TextField(
                 decoration: InputDecoration(
-                  labelText: 'Username',
+                  labelText: '  Username',
                   border: InputBorder.none, // Remove default border
                 ),
               ),
@@ -49,6 +50,7 @@ class LogoScreen extends StatelessWidget {
             // Password Input
             Container(
               width: 300.0,
+              height: 40.0,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10.0),
                 color: Color(0xFFD9D9D9), // Background color
@@ -56,7 +58,7 @@ class LogoScreen extends StatelessWidget {
               child: TextField(
                 obscureText: true,
                 decoration: InputDecoration(
-                  labelText: 'Password',
+                  labelText: '  Password',
                   border: InputBorder.none, // Remove default border
                 ),
               ),
@@ -70,7 +72,7 @@ class LogoScreen extends StatelessWidget {
               child: Text(
                 'Forgot Password?',
                 style: TextStyle(
-                  color: Colors.blue, // You can customize the text color
+                  color: Colors.black, // You can customize the text color
                   decoration: TextDecoration.underline,
                 ),
               ),
@@ -79,7 +81,7 @@ class LogoScreen extends StatelessWidget {
                 height: 20.0), // Add spacing below the "Forgot Password?" text
             // Login Button with custom styling
             Container(
-              width: 250.0,
+              width: 100.0,
               height: 40.0,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10.0),
