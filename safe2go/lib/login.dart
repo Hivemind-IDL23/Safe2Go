@@ -110,7 +110,7 @@ class LogoScreen extends StatelessWidget {
               height: 3.0,
               color: Color(0xFFB5B3B3), // Customize the line color
             ),
-            SizedBox(height: 20.0), // Space gap
+            SizedBox(height: 10.0), // Space gap
 
             // Sign In with Google Button
             Container(
@@ -146,7 +146,7 @@ class LogoScreen extends StatelessWidget {
             ),
 
             // Divider line
-            SizedBox(height: 20.0), // Space Gap
+            SizedBox(height: 10.0), // Space Gap
             Container(
               width: 240.0,
               height: 3.0,

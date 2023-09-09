@@ -107,7 +107,7 @@ class LogoScreen extends StatelessWidget {
             SizedBox(height: 20.0), // Space Gap
             Container(
               width: 240.0,
-              height: 3.0,
+              height: 2.0,
               color: Color(0xFFB5B3B3), // Customize the line color
             ),
             SizedBox(height: 10.0), // Space gap
@@ -149,7 +149,7 @@ class LogoScreen extends StatelessWidget {
             SizedBox(height: 10.0), // Space Gap
             Container(
               width: 240.0,
-              height: 3.0,
+              height: 2.0,
               color: Color(0xFFB5B3B3), // Customize the line color
             ),
             SizedBox(height: 20.0), // Space gap
