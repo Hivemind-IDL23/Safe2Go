@@ -78,7 +78,7 @@ class LogoScreen extends StatelessWidget {
                 height: 20.0), // Add spacing below the "Forgot Password?" text
             // Login Button with custom styling
             Container(
-              width: 100.0,
+              width: 150.0,
               height: 40.0,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10.0),
@@ -103,39 +103,65 @@ class LogoScreen extends StatelessWidget {
                 ),
               ),
             ),
-
-            SizedBox(height: 20.0), // Add spacing below the "Sign up" Button
-
+            SizedBox(height: 15.0), // Add some space below the login button
             // Sign In with Google Button
             Container(
-              width: 200.0,
+              width: 300.0,
               height: 40.0,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10.0),
-                color: Colors.red, // Customize the background color
+                color: Color(0xFFFF159A9C), // Customize the background color
               ),
               child: ElevatedButton.icon(
                 onPressed: () {
                   // Implement Google Sign-In logic here
                 },
-                icon: Image.asset(
-                  'assets/google_icon.png', // Replace 'google_icon.png' with the path to your Google icon image asset
-                  width: 24.0, // Adjust the width as needed
-                  height: 24.0, // Adjust the height as needed
-                  color: Colors.white, // Customize the icon color
+                icon: Icon(
+                  Icons.g_translate, // Replace with Google icon or desired icon
+                  color: Colors.black, // Customize icon color
                 ),
                 label: Text(
-                  'Sign In with Google',
+                  '     Sign In with Google',
                   style: TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontSize: 16.0,
                   ),
                 ),
                 style: ElevatedButton.styleFrom(
                   primary:
-                      Color(0xFFFF159A9C), // Match the button background color
+                      Color(0xFFD9D9D9), // Match the button background color
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10.0),
+                  ),
+                ),
+              ),
+            ),
+            SizedBox(
+                height:
+                    15.0), // Add some space below the google login option button
+            // Sign up Button with custom styling
+            Container(
+              width: 150.0,
+              height: 40.0,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10.0),
+                color: Color(0xFFFF159A9C),
+              ),
+              child: ElevatedButton(
+                onPressed: () {
+                  // Implement login logic here
+                },
+                style: ElevatedButton.styleFrom(
+                  primary: Color(0xFFFF159A9C),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0),
+                  ),
+                ),
+                child: Text(
+                  'Sign Up',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 16.0,
                   ),
                 ),
               ),
