@@ -103,7 +103,15 @@ class LogoScreen extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 20.0), // Add some space below the login button
+            // Divider line
+            SizedBox(height: 20.0), // Space Gap
+            Container(
+              width: 240.0,
+              height: 3.0,
+              color: Color(0xFFB5B3B3), // Customize the line color
+            ),
+            SizedBox(height: 20.0), // Space gap
+
             // Sign In with Google Button
             Container(
               width: 300.0,
@@ -136,9 +144,16 @@ class LogoScreen extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-                height:
-                    15.0), // Add some space below the google login option button
+
+            // Divider line
+            SizedBox(height: 20.0), // Space Gap
+            Container(
+              width: 240.0,
+              height: 3.0,
+              color: Color(0xFFB5B3B3), // Customize the line color
+            ),
+            SizedBox(height: 20.0), // Space gap
+
             Text(
               "Don't have an account yet?",
               style: TextStyle(
