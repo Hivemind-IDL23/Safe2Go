@@ -103,7 +103,7 @@ class LogoScreen extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 15.0), // Add some space below the login button
+            SizedBox(height: 20.0), // Add some space below the login button
             // Sign In with Google Button
             Container(
               width: 300.0,
@@ -139,6 +139,16 @@ class LogoScreen extends StatelessWidget {
             SizedBox(
                 height:
                     15.0), // Add some space below the google login option button
+            Text(
+              "Don't have an account yet?",
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 16.0, // Customize the font size
+                fontWeight:
+                    FontWeight.normal, // You can customize the font weight
+              ),
+            ),
+            SizedBox(height: 15.0), // Add some space below the text
             // Sign up Button with custom styling
             Container(
               width: 150.0,
